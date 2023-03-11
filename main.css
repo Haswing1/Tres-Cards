@@ -7,6 +7,40 @@
 body{
    background: rgb(27,27,27);
 }
-.container {
+.container{
    display: flex;
+   justify-content: center;
+  /* height: 100vh;*/
+   height: 500px;
+   
+}
+
+.cards{
+   background: white;
+   width: 350px;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+.c-img {
+   background-color: blue;
+   height: 150px;
+   margin-bottom: 15px;
+   border-radius: 10px 10px 0 0;
+}
+
+.c-img-1 {
+   background-image: url(/images/colorwheel.jpg);
+}
+
+.c-img-2 {
+   background-image: url('');
+}
+
+.c-img-3  {
+   background-image: url('');
+}
+
+.cards h2 p {
+   padding: 10px;
 }
